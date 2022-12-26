@@ -36,4 +36,5 @@ set shiftwidth=2
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'vim-denops/denops.vim'
 Plug 'kat0h/bufpreview.vim', { 'do': 'deno task prepare' }
+Plug 'mattn/vim-maketable'
 call plug#end()
