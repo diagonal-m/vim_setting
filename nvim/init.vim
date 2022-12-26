@@ -16,7 +16,7 @@ inoremap <C-l> <Right>
 inoremap <C-k> <Up>                          
 inoremap <C-j> <Down>
 
-
+:
 " エディタ
 set number " 行番号表示
 
@@ -34,7 +34,10 @@ set shiftwidth=2
 " plug in
 " ====================================================
 call plug#begin('~/.local/share/nvim/plugged')
-Plug 'vim-denops/denops.vim'
-Plug 'kat0h/bufpreview.vim', { 'do': 'deno task prepare' }
-Plug 'mattn/vim-maketable'
+  Plug 'vim-denops/denops.vim'
+  Plug 'kat0h/bufpreview.vim', { 'do': 'deno task prepare' }
+  Plug 'mattn/vim-maketable'
+  Plug 'scrooloose/nerdtree'
+  Plug 'ryanoasis/vim-devicons'
+  Plug 'ryanoasis/nerd-fonts'
 call plug#end()

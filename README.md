@@ -51,3 +51,8 @@ call plug#end()
 |ゴリラ|27  |
 |猫    |10  |
 |犬    |20  |
+
+### scrooloose/nerdtree
+ファイルツリーを表示することができる。
+ツリー上のファイルに対して表示、分割表示、プレビュー等が行える
+`ryanoasis/vim-devicons`と`ryanoasis/nerd-fonts`を導入することで、ファイルタイプ毎にアイコンを表示することができる。
