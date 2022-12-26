@@ -28,3 +28,12 @@ set cursorline
 set expandtab
 set tabstop=2
 set shiftwidth=2
+
+
+" ====================================================
+" plug in
+" ====================================================
+call plug#begin('~/.local/share/nvim/plugged')
+Plug 'vim-denops/denops.vim'
+Plug 'kat0h/bufpreview.vim', { 'do': 'deno task prepare' }
+call plug#end()
